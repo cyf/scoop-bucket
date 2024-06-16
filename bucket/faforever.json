@@ -29,15 +29,15 @@
     "checkver": {
         "url": "https://api.github.com/repos/cyf/faforever/releases/latest",
         "jsonpath": "$.tag_name",
-        "regex": "v(?<version>\\d+(?:\\.\\d+)+(\\+\\d+)?)"
+        "regex": "v(\\d+(\\.\\d+)+(\\+\\d+)?)"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/cyf/faforever/releases/download/v$matchVersion/FaForever_$matchVersion_x64-setup.exe#/FaForever.exe"
+                "url": "https://github.com/cyf/faforever/releases/download/v$version/FaForever_$version_x64-setup.exe#/FaForever.exe"
             },
             "32bit": {
-                "url": "https://github.com/cyf/faforever/releases/download/v$matchVersion/FaForever_$matchVersion_x86-setup.exe#/FaForever.exe"
+                "url": "https://github.com/cyf/faforever/releases/download/v$version/FaForever_$version_x86-setup.exe#/FaForever.exe"
             }
         }
     }
