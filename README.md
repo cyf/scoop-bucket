@@ -1,13 +1,13 @@
-# Cyf Bucket
+# Scoop Bucket
 
-[![Tests](https://github.com/cyf/cyf-bucket/actions/workflows/ci.yml/badge.svg)](https://github.com/cyf/cyf-bucket/actions/workflows/ci.yml)
-[![Excavator](https://github.com/cyf/cyf-bucket/actions/workflows/excavator.yml/badge.svg)](https://github.com/cyf/cyf-bucket/actions/workflows/excavator.yml)
+[![Tests](https://github.com/cyf/scoop-bucket/actions/workflows/ci.yml/badge.svg)](https://github.com/cyf/scoop-bucket/actions/workflows/ci.yml)
+[![Excavator](https://github.com/cyf/scoop-bucket/actions/workflows/excavator.yml/badge.svg)](https://github.com/cyf/scoop-bucket/actions/workflows/excavator.yml)
 
 ## Install
 
 ```pwsh
-scoop bucket add cyf-bucket https://github.com/cyf/cyf-bucket
-scoop install cyf-bucket/faforever
+scoop bucket add scoop-bucket https://github.com/cyf/scoop-bucket
+scoop install scoop-bucket/faforever
 ```
 
 ## How do I contribute new manifests?
