@@ -3,9 +3,7 @@
 [![Tests](https://github.com/cyf/cyf-bucket/actions/workflows/ci.yml/badge.svg)](https://github.com/cyf/cyf-bucket/actions/workflows/ci.yml)
 [![Excavator](https://github.com/cyf/cyf-bucket/actions/workflows/excavator.yml/badge.svg)](https://github.com/cyf/cyf-bucket/actions/workflows/excavator.yml)
 
-## How do I install these manifests?
-
-After manifests have been committed and pushed, run the following:
+## Install
 
 ```pwsh
 scoop bucket add cyf-bucket https://github.com/cyf/cyf-bucket
