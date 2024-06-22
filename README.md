@@ -2,6 +2,7 @@
 
 [![Tests](https://github.com/cyf/scoop-bucket/actions/workflows/ci.yml/badge.svg)](https://github.com/cyf/scoop-bucket/actions/workflows/ci.yml)
 [![Excavator](https://github.com/cyf/scoop-bucket/actions/workflows/excavator.yml/badge.svg)](https://github.com/cyf/scoop-bucket/actions/workflows/excavator.yml)
+[![Scoop Version](https://img.shields.io/scoop/v/faforever?bucket=https%3A%2F%2Fgithub.com%2Fcyf%2Fscoop-bucket)](https://scoop.sh/#/apps?q=faforever&o=false&id=d82f75b3e4ad483c1a4a3fc356ab88d588728c57)
 
 ## Install
 
